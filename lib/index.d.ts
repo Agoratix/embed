@@ -30,7 +30,7 @@ declare type CrossmintEmbedBaseRequestDataType = CrossmintEmbedRequestAccountDat
 interface CrossmintEmbedParams {
     /**
      * API key
-     * Get yours at {@link https://console.crossmint.io | Developer Dashboard}
+     * Get yours at {@link https://console.crossmint.com | Developer Dashboard}
      */
     apiKey: string;
     chain: BlockchainTypes;
@@ -57,8 +57,8 @@ interface CrossmintEmbedConfig {
     appMetadata?: AppMetadata;
 }
 declare enum CrossmintEnvironment {
-    PROD = "https://www.crossmint.io",
-    STAGING = "https://staging.crossmint.io",
+    PROD = "https://www.crossmint.com",
+    STAGING = "https://staging.crossmint.com",
     LOCAL = "http://localhost:3001"
 }
 interface CrossmintStore {

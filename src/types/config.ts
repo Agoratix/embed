@@ -43,7 +43,7 @@ export interface CrossmintEmbedConfig {
 
 export enum CrossmintEnvironment {
     PROD = "https://www.crossmint.com",
-    STAGING = "https://staging.crossmint.com",
+    STAGING = "https://staging.crossmint.io",
     LOCAL = "http://localhost:3001",
 }
 
